@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.lang.Math;
 
 
 public class Fourteenth {
@@ -8,7 +7,7 @@ public class Fourteenth {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int num = n;
-		int digit = 0;
+		int digit;
 		int count = 0;
 		int sum = 0;
 		while(n != 0) {
